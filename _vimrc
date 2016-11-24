@@ -12,7 +12,6 @@ set softtabstop=4
 set textwidth=79
 set number
 
-colorscheme phd
 set cursorline
 
 " Remapping the Esc key for faster access in escape mode
@@ -29,6 +28,8 @@ Plugin 'VundleVim/Vundle.vim'
 " add all the plugins here
 Plugin 'scrooloose/nerdtree'
 Plugin 'mattn/emmet-vim'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'maksimr/vim-jsbeautify'
 
 " all the plugins must be added before the following line
 call vundle#end()
